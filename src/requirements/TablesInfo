@@ -1,0 +1,4 @@
+connect system/system;
+create table tbltopics(topic varchar2(64),classname varchar2(32),bagwords varchar2(256));
+create table tblposts(studentid varchar2(32),classname varchar2(32),topic varchar2(32),essaycontents varchar2(2000));
+create table tblscores(studentid varchar2(32),classname varchar2(32),score number(8,2));
